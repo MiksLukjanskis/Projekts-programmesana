@@ -5,7 +5,7 @@ V=S/t
 Ç=int(input("Cik çdienreizes tev ir bijuðas?"))
 ç=3-Ç
 M=int(input("Cik stundas miega tu gulçji pagâðnakt?"))
-print ("Tav âtrums ir",V, "metri sekundç.")
+print ("Tavs âtrums ir %.2f"% V,"metri sekundç.")
 if ç==3: print("Tev ðodien ir jâbût vçl 3 çdienreizçm.")
 elif ç==2: print("Tev ðodien ir jâbût vçl 2 çdienreizçm.")
 elif ç==1: print("Tev ðodien ir jâbût vçl 1 çdienreize.")
